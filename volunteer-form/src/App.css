@@ -1,0 +1,44 @@
+.App {
+  margin: 5em;
+}
+
+.ck-editor__editable_inline {
+  min-height: 500px;
+}
+
+.title{
+  margin-bottom: 3rem;
+}
+
+.title input{
+  border: none;
+  display: block;
+  font-size: 3rem;
+  width: 100%;
+}
+
+.editor{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+}
+
+.summary{
+  margin: 2rem 0;
+}
+.summary button{
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+.summary button svg{
+  width: 1em;
+  height: 1em;
+}
+
+.submit{
+  margin: auto;
+  display: block;
+  font-size: 1.25rem;
+}
